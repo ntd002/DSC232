@@ -1,6 +1,7 @@
 # DSC232 Big Data Analytics with Spark | Group Project
 
 ## Materials
+- Written Report (forthcoming)
 - [Project Abstract](https://github.com/ntd002/DSC232/blob/Milestone1/Spotify%20Audio%20Data%20Abstract.pdf)
 - [Milestone 1](https://github.com/ntd002/DSC232/tree/Milestone1)
 
@@ -17,4 +18,4 @@ Our Random Forest Classification and K-Means Clustering models fit in the ideal 
 From our first few attempts, the Random Forest Classification models appear to yield the most promising results and can serve as a reliable tool to predict a new song’s attributes. We will look to further refine these models by attempting to tune the parameters and combinations of inputs used.
 
 ## Milstone 4
-*Forthcoming*
+[Milestone 4](https://github.com/ntd002/DSC232/tree/Milestone4?tab=readme-ov-file) 
