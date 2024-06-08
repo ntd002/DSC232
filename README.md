@@ -1,5 +1,5 @@
-# DSC232
-# Overview
+# DSC232 Group Project
+## Overview
 
 This is the project repository for DSC232R Big Data Analytics with Spark at UCSD in SP24. | Group Project Title: **Understanding and Predicting Spotify Trends to Improve Personalization and ROI**.
 
@@ -229,45 +229,36 @@ Our RMSE error dropped further, however our R2 score dropped as well. It appears
 
 
 ## 7. Statement of Collaboration
-#### Name: Alex Hayslip
-#### Title: 
-#### Contribution: Wrote code for data exploration, preprocessing and modeling in a local environment. 
+### Name: Alex Hayslip
+- Title: 
+- Contribution: Wrote code for data exploration, preprocessing and modeling in a local environment. 
 
-#### Name: Chris Scholz
-#### Title: 
-#### Contribution: Porting and centralizing locally-developed prototype code into single notebook in SDSC, sourcing and managing dataset within SDSC
+### Name: Chris Scholz
+- Title: 
+- Contribution: Porting and centralizing locally-developed prototype code into single notebook in SDSC, sourcing and managing dataset within SDSC
 
-#### Name: Kian Mohseni
-#### Title: Multi
-#### Contribution: Chose the dataset, wrote and edited Abstract, helped create and format Github repositories and branches, drafted README.md files for Data Exploration & Preprocessing branches, code review & model suggestions, report writing.
+### Name: Kian Mohseni
+- Title: Multi
+- Contribution: Chose the dataset, wrote and edited Abstract, helped create and format Github repositories and branches, drafted README.md files for Data Exploration & Preprocessing branches, code review & model suggestions, report writing.
 
-#### Name: Nathaniel Do
-#### Title: Debugger
-#### Contribution: Coding/debugging, feedback, preprocessing problem solving regarding the dataset
+### Name: Nathaniel Do
+- Title: Debugger
+- Contribution: Coding/debugging, feedback, preprocessing problem solving regarding the dataset
 
-#### Name: Jesse Parent
-#### Title: 
-#### Contribution: Documentation, code review, writing/editing
+### Name: Jesse Parent
+- Title: 
+- Contribution: Documentation, code review, writing/editing
 
 
 
 ## References
-#### Björklund, G., Bohlin, M., Olander, E., Jansson, J., Walter, C.E., Au-Yong-Oliveira, M. (2022). An Exploratory Study on the Spotify Recommender System. In: Rocha, A., Adeli, H., Dzemyda, G., Moreira, F. (eds) Information Systems and Technologies. WorldCIST 2022. Lecture Notes in Networks and Systems, vol 469. Springer, Cham. https://doi.org/10.1007/978-3-031-04819-7_36
-#### Mulligan, M. (2022, December 7). Music subscriber market shares 2022. Midia Research. Retrieved June 4, 2024, from https://www.midiaresearch.com/blog/music-subscriber-market-shares-2022
-#### Schrage, M. (2017, August 1). Great Digital Companies Build Great Recommendation Engines. Harvard Business Review. Retrieved June 4, 2024, from https://hbr.org/2017/08/great-digital-companies-build-great-recommendation-engines
-#### Iqbal, M. (2024, May 7). Spotify Revenue and Usage Statistics. Business of Apps. Retrieved June 4, 2024, from https://www.businessofapps.com/data/spotify-statistics/
+- Björklund, G., Bohlin, M., Olander, E., Jansson, J., Walter, C.E., Au-Yong-Oliveira, M. (2022). An Exploratory Study on the Spotify Recommender System. In: Rocha, A., Adeli, H., Dzemyda, G., Moreira, F. (eds) Information Systems and Technologies. WorldCIST 2022. Lecture Notes in Networks and Systems, vol 469. Springer, Cham. https://doi.org/10.1007/978-3-031-04819-7_36
+- Mulligan, M. (2022, December 7). Music subscriber market shares 2022. Midia Research. Retrieved June 4, 2024, from https://www.midiaresearch.com/blog/music-subscriber-market-shares-2022
+- Schrage, M. (2017, August 1). Great Digital Companies Build Great Recommendation Engines. Harvard Business Review. Retrieved June 4, 2024, from https://hbr.org/2017/08/great-digital-companies-build-great-recommendation-engines
+- Iqbal, M. (2024, May 7). Spotify Revenue and Usage Statistics. Business of Apps. Retrieved June 4, 2024, from https://www.businessofapps.com/data/spotify-statistics/
 
 
-# To-Be Archived: Previous ReadMe Structure
-## Materials
-- [Project Abstract](https://github.com/ntd002/DSC232/blob/Milestone1/Spotify%20Audio%20Data%20Abstract.pdf)
-- [Milestone 1](https://github.com/ntd002/DSC232/tree/Milestone1)
 
-## Milestone 2
-[Milestone 2](https://github.com/ntd002/DSC232/tree/Milestone2)
-
-## Milestone 3
-[Milestone 3](https://github.com/ntd002/DSC232/tree/Milestone3)
 
 
 
