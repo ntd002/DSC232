@@ -110,8 +110,8 @@ Figure 7: The stream count distribution is skewed to the right, and is a unimoda
 
 Figure 8: Normalization of the “af_acousticness” attribute in all records of the dataset.
 ### 4.3 Model 1
-Random forest classifier for prediction of profanity has an accuracy of 77.4%.
-Random forest classifier for prediction of popularity increase has an accuracy of 61.5%.
+Random forest classifier for prediction of profanity has an accuracy of 77.4%.\
+Random forest classifier for prediction of popularity increase has an accuracy of 61.5%.\
 Random forest classifier for prediction of popularity increase has an accuracy of 55.8%.
 ### 4.4 Model 2
 
@@ -119,53 +119,53 @@ Random forest classifier for prediction of popularity increase has an accuracy o
 Figure 9: 2-D Cluster analysis of energy and danceability attributes using 6 clusters.
 
 
-Silhouette Score: 0.5492704788609065
-Silhouette Score: 0.5173897338891734
-Silhouette Score: 0.5029666184535027
-Silhouette Score: 0.46515254881357165
-Silhouette Score: 0.4442161457724867
-Silhouette Score: 0.4735004919145314
-Silhouette Score: 0.4755510964656044
-Silhouette Score: 0.45684214759467057
+Silhouette Score: 0.5492704788609065\
+Silhouette Score: 0.5173897338891734\
+Silhouette Score: 0.5029666184535027\
+Silhouette Score: 0.46515254881357165\
+Silhouette Score: 0.4442161457724867\
+Silhouette Score: 0.4735004919145314\
+Silhouette Score: 0.4755510964656044\
+Silhouette Score: 0.45684214759467057\
 
 
 
 Figure 10: 2-D Cluster analysis of popularity and danceability attributes using 4 clusters.
-Silhouette Score: 0.8785532878495226
-Silhouette Score: 0.3273972588970275
-Silhouette Score: 0.028365477837013767
-Silhouette Score: -0.01873459539871663
-Silhouette Score: -0.020683535499144846
-Silhouette Score: -0.03338390033915237
-Silhouette Score: -0.06254580484007226
-Silhouette Score: -0.20195852169121722
+Silhouette Score: 0.8785532878495226\
+Silhouette Score: 0.3273972588970275\
+Silhouette Score: 0.028365477837013767\
+Silhouette Score: -0.01873459539871663\
+Silhouette Score: -0.020683535499144846\
+Silhouette Score: -0.03338390033915237\
+Silhouette Score: -0.06254580484007226\
+Silhouette Score: -0.20195852169121722\
 
 
 
 Figure 11: 2-D cluster analysis of popularity and valence attributes using 4 clusters.
-Silhouette Score: 0.8777958005670929
-Silhouette Score: 0.25316260737768
-Silhouette Score: 0.008758324455058466
-Silhouette Score: -0.025610898137982625
-Silhouette Score: -0.03723946929681865
-Silhouette Score: -0.10253902231710126
-Silhouette Score: -0.09296600779895305
-Silhouette Score: -0.10702128533420957
+Silhouette Score: 0.8777958005670929\
+Silhouette Score: 0.25316260737768\
+Silhouette Score: 0.008758324455058466\
+Silhouette Score: -0.025610898137982625\
+Silhouette Score: -0.03723946929681865\
+Silhouette Score: -0.10253902231710126\
+Silhouette Score: -0.09296600779895305\
+Silhouette Score: -0.10702128533420957\
 
 ### 4.5 Model 3
 Our first linear regression model was used to predict stream count using rank and popularity.
 
-Root Mean Squared Error (RMSE) on test data: 206507.528
+Root Mean Squared Error (RMSE) on test data: 206507.528\
 R-squared (R2) on test data: 0.019
 
 The next linear regression model implemented was used to predict rank using popularity and stream count.
 
-Root Mean Squared Error (RMSE) on test data: 57.031
+Root Mean Squared Error (RMSE) on test data: 57.031\
 R-squared (R2) on test data: 0.017
 
 In our final linear regression experiment, we attempted to predict popularity by adding several more features to see if this can improve the R2 score of our model.
 
-Root Mean Squared Error (RMSE) on test data: 30.404
+Root Mean Squared Error (RMSE) on test data: 30.404\
 R-squared (R2) on test data: 0.003
 
 
