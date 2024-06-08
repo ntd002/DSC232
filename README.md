@@ -93,7 +93,8 @@ The 5 chosen dimensions are:
 1. af_loudness_normalized
 1. af_acousticness
 1. af_speechiness
-2. 
+
+
 This final clustering model could be useful for recommender systems, providing new tracks that are similar to a specific chosen track, or general track segmentation analysis.
 
 While we can't visualize all 5 dimensions of our cluster model simultaneously, we can visualize 2-dimensional slices to get a feel for how the model is grouping various metrics. We will visualize four 2D slices of our trained cluster model.
