@@ -91,7 +91,7 @@ The 5 chosen dimensions are:
 #### af_energy
 #### af_loudness_normalized
 #### af_acousticness
-#### *af_speechiness
+#### af_speechiness
 This final clustering model could be useful for recommender systems, providing new tracks that are similar to a specific chosen track, or general track segmentation analysis.
 While we can't visualize all 5 dimensions of our cluster model simultaneously, we can visualize 2-dimensional slices to get a feel for how the model is grouping various metrics. We will visualize four 2D slices of our trained cluster model.
 To further experiment with our trained cluster model, we will pick a sample of random tracks, and then for each we will pick a random track from the same cluster as the original track. The "recommended" track may not be the same artist or genre as the original, but given the supplied 5 audio metrics, has been identified by our cluster model as being similar to the original.
@@ -100,11 +100,9 @@ To further experiment with our trained cluster model, we will pick a sample of r
 
 Figure 4: Datatypes of revised dataframe.
 
-
 Figure 5: Record count for top 20 regions in descending order.
 
 Figure 6: Top 20 artists whose tracks appear most frequently in the dataset.
-
 
 Figure 7: The stream count distribution is skewed to the right, and is a unimodal distribution with one distinct peak
 
@@ -222,25 +220,25 @@ Our RMSE error dropped further, however our R2 score dropped as well. It appears
 
 
 ## 7. Statement of Collaboration
-Name: Alex Hayslip
-Title: 
-Contribution: Wrote code for data exploration, preprocessing and modeling in a local environment. 
+### Name: Alex Hayslip
+### Title: 
+### Contribution: Wrote code for data exploration, preprocessing and modeling in a local environment. 
 
-Name: Chris Scholz
-Title: 
-Contribution: Porting and centralizing locally-developed prototype code into single notebook in SDSC, sourcing and managing dataset within SDSC
+### Name: Chris Scholz
+### Title: 
+### Contribution: Porting and centralizing locally-developed prototype code into single notebook in SDSC, sourcing and managing dataset within SDSC
 
-Name: Kian Mohseni
-Title: Multi
-Contribution: Chose the dataset, wrote and edited Abstract, helped create and format Github repositories and branches, drafted README.md files for Data Exploration & Preprocessing branches, code review & model suggestions, report writing.
+### Name: Kian Mohseni
+### Title: Multi
+### Contribution: Chose the dataset, wrote and edited Abstract, helped create and format Github repositories and branches, drafted README.md files for Data Exploration & Preprocessing branches, code review & model suggestions, report writing.
 
-Name: Nathaniel Do
-Title: Debugger
-Contribution: Coding/debugging, feedback, preprocessing problem solving regarding the dataset
+### Name: Nathaniel Do
+### Title: Debugger
+### Contribution: Coding/debugging, feedback, preprocessing problem solving regarding the dataset
 
-Name: Jesse Parent
-Title: 
-Contribution: Documentation, code review, writing/editing
+### Name: Jesse Parent
+### Title: 
+### Contribution: Documentation, code review, writing/editing
 
 
 
