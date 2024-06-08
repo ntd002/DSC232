@@ -220,25 +220,25 @@ Our RMSE error dropped further, however our R2 score dropped as well. It appears
 
 
 ## 7. Statement of Collaboration
-### Name: Alex Hayslip
-### Title: 
-### Contribution: Wrote code for data exploration, preprocessing and modeling in a local environment. 
+#### Name: Alex Hayslip
+#### Title: 
+#### Contribution: Wrote code for data exploration, preprocessing and modeling in a local environment. 
 
-### Name: Chris Scholz
-### Title: 
-### Contribution: Porting and centralizing locally-developed prototype code into single notebook in SDSC, sourcing and managing dataset within SDSC
+#### Name: Chris Scholz
+#### Title: 
+#### Contribution: Porting and centralizing locally-developed prototype code into single notebook in SDSC, sourcing and managing dataset within SDSC
 
-### Name: Kian Mohseni
-### Title: Multi
-### Contribution: Chose the dataset, wrote and edited Abstract, helped create and format Github repositories and branches, drafted README.md files for Data Exploration & Preprocessing branches, code review & model suggestions, report writing.
+#### Name: Kian Mohseni
+#### Title: Multi
+#### Contribution: Chose the dataset, wrote and edited Abstract, helped create and format Github repositories and branches, drafted README.md files for Data Exploration & Preprocessing branches, code review & model suggestions, report writing.
 
-### Name: Nathaniel Do
-### Title: Debugger
-### Contribution: Coding/debugging, feedback, preprocessing problem solving regarding the dataset
+#### Name: Nathaniel Do
+#### Title: Debugger
+#### Contribution: Coding/debugging, feedback, preprocessing problem solving regarding the dataset
 
-### Name: Jesse Parent
-### Title: 
-### Contribution: Documentation, code review, writing/editing
+#### Name: Jesse Parent
+#### Title: 
+#### Contribution: Documentation, code review, writing/editing
 
 
 
