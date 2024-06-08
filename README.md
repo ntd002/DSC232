@@ -18,16 +18,16 @@ Music selection and streaming services at large are major economic drivers, with
 ### 1.3 Importance of Recommender Systems & Personalization
 Accurate and actionable recommendations contribute to many areas of the streaming economy. Here is a list of key reasons in this space:
 User Engagement and Retention:
-1. User Engagement & Retention:
-   a. Personalized Playlists: Spotify's "Discover Weekly" and "Release Radar" playlists are examples of how personalized recommendations can keep users engaged by introducing them to new music tailored to their tastes.
-   b. User Experience: A personalized experience makes the platform more enjoyable and user-friendly, encouraging users to spend more time on the app.
-2. Content Discovery:
-   a. Long Tail Content: Recommender systems help users discover less popular or niche content that they might not find otherwise, increasing the overall consumption of the platform's library. See Björklund et al (2022), which indicates nearly half of the time the Spotify users place the recommended songs in their playlist.
-   b. Artist Exposure: New and lesser-known artists can gain exposure through personalized recommendations, which can be crucial for their growth and success.
-3. Economic Impact:
-   a. Increased Revenue: By keeping users engaged and satisfied, personalized recommendations can lead to higher subscription rates and reduced churn, directly impacting the company's revenue.
-   b. Advertising: For free-tier users, personalized ads can be more effective, leading to higher ad revenues.
-   c. Data Monetization: The data collected through user interactions with personalized content can be valuable for market research and targeted marketing campaigns.
+####1. User Engagement & Retention:
+   #####a. Personalized Playlists: Spotify's "Discover Weekly" and "Release Radar" playlists are examples of how personalized recommendations can keep users engaged by introducing them to new music tailored to their tastes.
+   #####b. User Experience: A personalized experience makes the platform more enjoyable and user-friendly, encouraging users to spend more time on the app.
+####2. Content Discovery:
+   #####a. Long Tail Content: Recommender systems help users discover less popular or niche content that they might not find otherwise, increasing the overall consumption of the platform's library. See Björklund et al (2022), which indicates nearly half of the time the Spotify users place the recommended songs in their playlist.
+   #####b. Artist Exposure: New and lesser-known artists can gain exposure through personalized recommendations, which can be crucial for their growth and success.
+####3. Economic Impact:
+   #####a. Increased Revenue: By keeping users engaged and satisfied, personalized recommendations can lead to higher subscription rates and reduced churn, directly impacting the company's revenue.
+   #####b. Advertising: For free-tier users, personalized ads can be more effective, leading to higher ad revenues.
+   #####c. Data Monetization: The data collected through user interactions with personalized content can be valuable for market research and targeted marketing campaigns.
 From user engagement and retention, to content discovery, to economic impact, it’s clear that recommender systems are an invaluable resource. 
 
 
