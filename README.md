@@ -126,11 +126,12 @@ Silhouette Score: 0.46515254881357165\
 Silhouette Score: 0.4442161457724867\
 Silhouette Score: 0.4735004919145314\
 Silhouette Score: 0.4755510964656044\
-Silhouette Score: 0.45684214759467057\
+Silhouette Score: 0.45684214759467057
 
 
 
 Figure 10: 2-D Cluster analysis of popularity and danceability attributes using 4 clusters.
+
 Silhouette Score: 0.8785532878495226\
 Silhouette Score: 0.3273972588970275\
 Silhouette Score: 0.028365477837013767\
@@ -138,11 +139,12 @@ Silhouette Score: -0.01873459539871663\
 Silhouette Score: -0.020683535499144846\
 Silhouette Score: -0.03338390033915237\
 Silhouette Score: -0.06254580484007226\
-Silhouette Score: -0.20195852169121722\
+Silhouette Score: -0.20195852169121722
 
 
 
 Figure 11: 2-D cluster analysis of popularity and valence attributes using 4 clusters.
+
 Silhouette Score: 0.8777958005670929\
 Silhouette Score: 0.25316260737768\
 Silhouette Score: 0.008758324455058466\
@@ -150,7 +152,7 @@ Silhouette Score: -0.025610898137982625\
 Silhouette Score: -0.03723946929681865\
 Silhouette Score: -0.10253902231710126\
 Silhouette Score: -0.09296600779895305\
-Silhouette Score: -0.10702128533420957\
+Silhouette Score: -0.10702128533420957
 
 ### 4.5 Model 3
 Our first linear regression model was used to predict stream count using rank and popularity.
