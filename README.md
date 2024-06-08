@@ -1,7 +1,7 @@
 # DSC232 Group Project
 ## Overview
 
-This is the project repository for DSC232R Big Data Analytics with Spark at UCSD in SP24. | Group Project Title: **Understanding and Predicting Spotify Trends to Improve Personalization and ROI**.
+This is the project repository for DSC232R Big Data Analytics with Spark at UCSD in SP24. Group Project Title: **Understanding and Predicting Spotify Trends to Improve Personalization and ROI**.
 
 It contains a detailed analysis of a [large Spotify Audio dataset](https://www.kaggle.com/datasets/sunnykakar/spotify-charts-all-audio-data/data).
 
