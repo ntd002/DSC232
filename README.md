@@ -18,15 +18,16 @@ Music selection and streaming services at large are major economic drivers, with
 ### 1.3 Importance of Recommender Systems & Personalization
 Accurate and actionable recommendations contribute to many areas of the streaming economy. Here is a list of key reasons in this space:
 User Engagement and Retention:
-Personalized Playlists: Spotify's "Discover Weekly" and "Release Radar" playlists are examples of how personalized recommendations can keep users engaged by introducing them to new music tailored to their tastes.
-User Experience: A personalized experience makes the platform more enjoyable and user-friendly, encouraging users to spend more time on the app.
-Content Discovery:
-Long Tail Content: Recommender systems help users discover less popular or niche content that they might not find otherwise, increasing the overall consumption of the platform's library. See Björklund et al (2022), which indicates nearly half of the time the Spotify users place the recommended songs in their playlist.
-Artist Exposure: New and lesser-known artists can gain exposure through personalized recommendations, which can be crucial for their growth and success.
-Economic Impact:
-Increased Revenue: By keeping users engaged and satisfied, personalized recommendations can lead to higher subscription rates and reduced churn, directly impacting the company's revenue.
-Advertising: For free-tier users, personalized ads can be more effective, leading to higher ad revenues.
-Data Monetization: The data collected through user interactions with personalized content can be valuable for market research and targeted marketing campaigns.
+1. User Engagement & Retention:
+   a. Personalized Playlists: Spotify's "Discover Weekly" and "Release Radar" playlists are examples of how personalized recommendations can keep users engaged by introducing them to new music tailored to their tastes.
+   b. User Experience: A personalized experience makes the platform more enjoyable and user-friendly, encouraging users to spend more time on the app.
+2. Content Discovery:
+   a. Long Tail Content: Recommender systems help users discover less popular or niche content that they might not find otherwise, increasing the overall consumption of the platform's library. See Björklund et al (2022), which indicates nearly half of the time the Spotify users place the recommended songs in their playlist.
+   b. Artist Exposure: New and lesser-known artists can gain exposure through personalized recommendations, which can be crucial for their growth and success.
+3. Economic Impact:
+   a. Increased Revenue: By keeping users engaged and satisfied, personalized recommendations can lead to higher subscription rates and reduced churn, directly impacting the company's revenue.
+   b. Advertising: For free-tier users, personalized ads can be more effective, leading to higher ad revenues.
+   c. Data Monetization: The data collected through user interactions with personalized content can be valuable for market research and targeted marketing campaigns.
 From user engagement and retention, to content discovery, to economic impact, it’s clear that recommender systems are an invaluable resource. 
 
 
@@ -186,7 +187,7 @@ Figure 15: Multidimensional cluster analysis shown in a 2-D slicing of tempo and
 Figure 16: Determining a region-specific “recommended” track using the trained multidimensional cluster model. First iteration is shown.
 
 ## 5. Discussion
-[This is where you will discuss the why, and your interpretation and your thought process from beginning to end. This will mimic the sections you have created in your methods section as well as new sections you feel you need to create. You can also discuss how believable your results are at each step. You can discuss any short comings. It's ok to criticize as this shows your intellectual merit, as to how you are thinking about things scientifically and how you are able to correctly scrutinize things and find short comings. In science we never really find the perfect solution, especially since we know something will probably come up in the future (i.e. donkeys) and mess everything up. If you do it's probably a unicorn or the data and model you chose are just perfect for each other!]
+
 ### 5.1 Data Exploration
 ### 5.2 Preprocessing
 ### 5.3 Models 1, 2, & 3
@@ -216,7 +217,7 @@ Our RMSE error dropped further, however our R2 score dropped as well. It appears
 
 
 ## 6. Conclusion
-[This is where you do a mind dump on your opinions and possible future directions. Basically what you wish you could have done differently. Here you close with final thoughts.]
+
 
 
 
