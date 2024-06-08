@@ -249,4 +249,17 @@ Our RMSE error dropped further, however our R2 score dropped as well. It appears
 #### Iqbal, M. (2024, May 7). Spotify Revenue and Usage Statistics. Business of Apps. Retrieved June 4, 2024, from https://www.businessofapps.com/data/spotify-statistics/
 
 
+# To-Be Archived: Previous ReadMe Structure
+## Materials
+- [Project Abstract](https://github.com/ntd002/DSC232/blob/Milestone1/Spotify%20Audio%20Data%20Abstract.pdf)
+- [Milestone 1](https://github.com/ntd002/DSC232/tree/Milestone1)
+
+## Milestone 2
+[Milestone 2](https://github.com/ntd002/DSC232/tree/Milestone2)
+
+## Milestone 3
+[Milestone 3](https://github.com/ntd002/DSC232/tree/Milestone3)
+
+
+
 
