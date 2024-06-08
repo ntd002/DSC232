@@ -57,10 +57,10 @@ Because we were able to perform analyses around top tracks, artists, etc. in eac
 
 Figure 1: Spotify as a global leader in streaming music subscription markets (Mulligan, 2022).
 
-![image](https://github.com/ntd002/DSC232/assets/130802143/bbef4781-dba0-4dfd-a9ad-b2babc918e91)
-
+![B99B3902-F5DF-4F5B-8280-951AED11A0DB](https://github.com/ntd002/DSC232/assets/130802143/ffecfc92-dfbc-4efa-8932-ed8e5370a0eb)![image](https://github.com/ntd002/DSC232/assets/130802143/9256cbb2-067d-46e9-beac-977325ffef39)
 Figure 2: Spotify quarterly revenue from 2016 to 2023 (Iqbal, 2024).
 
+![60500255-9BAF-4EFA-8316-F69699CECB64](https://github.com/ntd002/DSC232/assets/130802143/c356c6a8-e532-4295-92f2-f8c8f58b9476)![image](https://github.com/ntd002/DSC232/assets/130802143/441fa9d3-4744-48b9-ab68-6117e376b49e)
 Figure 3: Spotify number of annual users from 2015 to 2023 (Iqbal, 2024).
 
 
@@ -100,17 +100,22 @@ To further experiment with our trained cluster model, we will pick a sample of r
 ## 4. Results
 ### 4.1 Data Exploration
 
+![B62F16F2-7B77-421C-85CF-3B223905E8B6](https://github.com/ntd002/DSC232/assets/130802143/74f69faa-b386-4672-84dd-5c2e97fb4d6f)![image](https://github.com/ntd002/DSC232/assets/130802143/29f4222a-fbfa-4509-bd00-877f2bfa1552)
 Figure 4: Datatypes of revised dataframe.
 
+![1A3D1E1B-DAF8-47E6-A9D9-3F238DC6A220](https://github.com/ntd002/DSC232/assets/130802143/8d30eec6-c076-4125-8cb1-0d5b1c99fd65)![image](https://github.com/ntd002/DSC232/assets/130802143/d34f3669-f94e-46f9-9b9a-14c8cc648ffb)
 Figure 5: Record count for top 20 regions in descending order.
 
+![BDAD118E-5CD7-463C-B00F-8B19CDA88942](https://github.com/ntd002/DSC232/assets/130802143/e1840d9a-c2d3-493c-9088-32b3006ea986)![image](https://github.com/ntd002/DSC232/assets/130802143/03a31016-996b-4899-952d-774d49eb607a)
 Figure 6: Top 20 artists whose tracks appear most frequently in the dataset.
 
 Figure 7: The stream count distribution is skewed to the right, and is a unimodal distribution with one distinct peak
 
 ### 4.2 Preprocessing
 
+![BD1C7A27-3817-49FD-BB53-0CBF2D49A000](https://github.com/ntd002/DSC232/assets/130802143/5f831ed6-b55b-4666-92dd-bb4b525cd18f)![image](https://github.com/ntd002/DSC232/assets/130802143/e7311645-ec4c-42be-9b2d-cf51ab479421)
 Figure 8: Normalization of the “af_acousticness” attribute in all records of the dataset.
+
 ### 4.3 Model 1
 Random forest classifier for prediction of profanity has an accuracy of 77.4%.\
 Random forest classifier for prediction of popularity increase has an accuracy of 61.5%.\
@@ -184,7 +189,7 @@ Figure 14: Multidimensional cluster analysis shown in a 2-D slicing of valence a
 
 Figure 15: Multidimensional cluster analysis shown in a 2-D slicing of tempo and valence attributes.
 
-
+![9E7CC065-A14A-423E-8E8B-A03A1BB29067](https://github.com/ntd002/DSC232/assets/130802143/467f941e-f87b-4581-b2da-8f38d5c1f8ed)![image](https://github.com/ntd002/DSC232/assets/130802143/eae8f28f-9e58-4e9d-9a9b-a8ea0b40750a)
 Figure 16: Determining a region-specific “recommended” track using the trained multidimensional cluster model. First iteration is shown.
 
 ## 5. Discussion
