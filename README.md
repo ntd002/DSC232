@@ -18,16 +18,16 @@ Music selection and streaming services at large are major economic drivers, with
 ### 1.3 Importance of Recommender Systems & Personalization
 Accurate and actionable recommendations contribute to many areas of the streaming economy. Here is a list of key reasons in this space:
 User Engagement and Retention:
-####1. User Engagement & Retention:
-   #####a. Personalized Playlists: Spotify's "Discover Weekly" and "Release Radar" playlists are examples of how personalized recommendations can keep users engaged by introducing them to new music tailored to their tastes.
-   #####b. User Experience: A personalized experience makes the platform more enjoyable and user-friendly, encouraging users to spend more time on the app.
-####2. Content Discovery:
-   #####a. Long Tail Content: Recommender systems help users discover less popular or niche content that they might not find otherwise, increasing the overall consumption of the platform's library. See Björklund et al (2022), which indicates nearly half of the time the Spotify users place the recommended songs in their playlist.
-   #####b. Artist Exposure: New and lesser-known artists can gain exposure through personalized recommendations, which can be crucial for their growth and success.
-####3. Economic Impact:
-   #####a. Increased Revenue: By keeping users engaged and satisfied, personalized recommendations can lead to higher subscription rates and reduced churn, directly impacting the company's revenue.
-   #####b. Advertising: For free-tier users, personalized ads can be more effective, leading to higher ad revenues.
-   #####c. Data Monetization: The data collected through user interactions with personalized content can be valuable for market research and targeted marketing campaigns.
+#### 1. User Engagement & Retention:
+   ##### a. Personalized Playlists: Spotify's "Discover Weekly" and "Release Radar" playlists are examples of how personalized recommendations can keep users engaged by introducing them to new music tailored to their tastes.
+   ##### b. User Experience: A personalized experience makes the platform more enjoyable and user-friendly, encouraging users to spend more time on the app.
+#### 2. Content Discovery:
+   ##### a. Long Tail Content: Recommender systems help users discover less popular or niche content that they might not find otherwise, increasing the overall consumption of the platform's library. See Björklund et al (2022), which indicates nearly half of the time the Spotify users place the recommended songs in their playlist.
+   ##### b. Artist Exposure: New and lesser-known artists can gain exposure through personalized recommendations, which can be crucial for their growth and success.
+#### 3. Economic Impact:
+   ##### a. Increased Revenue: By keeping users engaged and satisfied, personalized recommendations can lead to higher subscription rates and reduced churn, directly impacting the company's revenue.
+   ##### b. Advertising: For free-tier users, personalized ads can be more effective, leading to higher ad revenues.
+   ##### c. Data Monetization: The data collected through user interactions with personalized content can be valuable for market research and targeted marketing campaigns.
 From user engagement and retention, to content discovery, to economic impact, it’s clear that recommender systems are an invaluable resource. 
 
 
@@ -45,8 +45,8 @@ From user engagement and retention, to content discovery, to economic impact, it
 Given the salience of recommender systems in our economy, the next question is how can our model and data science efforts contribute to these practices; what follows is a broader summary of our findings and how they are discussed in the paper ahead.
 
 Our chosen data set is composed of stream counts by region, by time period, and by track, accompanied by a myriad of metrics related to each track (energy, danceability, length, etc), and popularity is ranked and comparatively scored. This lends us to the following sense of what we can offer in the lines of recommendation systems: 
-Our effort is not suited to perform user-level analysis/predictions/research
-It is suited to perform region-level, track-level, artist-level, genre-level, or time period based analysis/predictions/research
+#### 1. Our effort is not suited to perform user-level analysis/predictions/research
+#### 2. It is suited to perform region-level, track-level, artist-level, genre-level, or time period based analysis/predictions/research.
 
 Because we were able to perform analyses around top tracks, artists, etc. in each region, and create models that reasonably predict popularity for a given track based on the accompanying metrics and information, we have decided on multidimensional clustering as a viable final tuned model output for our project. We will further discuss this process in the next sections.
 
@@ -58,7 +58,6 @@ Because we were able to perform analyses around top tracks, artists, etc. in eac
 Figure 1: Spotify as a global leader in streaming music subscription markets (Mulligan, 2022).
 
 Figure 2: Spotify quarterly revenue from 2016 to 2023 (Iqbal, 2024).
-
 
 Figure 3: Spotify number of annual users from 2015 to 2023 (Iqbal, 2024).
 
@@ -88,11 +87,11 @@ Finally, multiple Linear Regression models were used to predict stream count usi
 ### 3.6 Model 4: Final Model
 Based on sample prototyping, we chose 5 audio metrics dimensions to create the best possible clustering analysis of every track reported by Spotify in the dataset.
 The 5 chosen dimensions are:
-af_danceability
-af_energy
-af_loudness_normalized
-af_acousticness
-af_speechiness
+#### af_danceability
+#### af_energy
+#### af_loudness_normalized
+#### af_acousticness
+#### *af_speechiness
 This final clustering model could be useful for recommender systems, providing new tracks that are similar to a specific chosen track, or general track segmentation analysis.
 While we can't visualize all 5 dimensions of our cluster model simultaneously, we can visualize 2-dimensional slices to get a feel for how the model is grouping various metrics. We will visualize four 2D slices of our trained cluster model.
 To further experiment with our trained cluster model, we will pick a sample of random tracks, and then for each we will pick a random track from the same cluster as the original track. The "recommended" track may not be the same artist or genre as the original, but given the supplied 5 audio metrics, has been identified by our cluster model as being similar to the original.
