@@ -243,10 +243,10 @@ Our RMSE error dropped further, however our R2 score dropped as well. It appears
 
 
 ## References
-Björklund, G., Bohlin, M., Olander, E., Jansson, J., Walter, C.E., Au-Yong-Oliveira, M. (2022). An Exploratory Study on the Spotify Recommender System. In: Rocha, A., Adeli, H., Dzemyda, G., Moreira, F. (eds) Information Systems and Technologies. WorldCIST 2022. Lecture Notes in Networks and Systems, vol 469. Springer, Cham. https://doi.org/10.1007/978-3-031-04819-7_36
-Mulligan, M. (2022, December 7). Music subscriber market shares 2022. Midia Research. Retrieved June 4, 2024, from https://www.midiaresearch.com/blog/music-subscriber-market-shares-2022
-Schrage, M. (2017, August 1). Great Digital Companies Build Great Recommendation Engines. Harvard Business Review. Retrieved June 4, 2024, from https://hbr.org/2017/08/great-digital-companies-build-great-recommendation-engines
-Iqbal, M. (2024, May 7). Spotify Revenue and Usage Statistics. Business of Apps. Retrieved June 4, 2024, from https://www.businessofapps.com/data/spotify-statistics/
+### Björklund, G., Bohlin, M., Olander, E., Jansson, J., Walter, C.E., Au-Yong-Oliveira, M. (2022). An Exploratory Study on the Spotify #### Recommender System. In: Rocha, A., Adeli, H., Dzemyda, G., Moreira, F. (eds) Information Systems and Technologies. WorldCIST 2022. #### Lecture Notes in Networks and Systems, vol 469. Springer, Cham. https://doi.org/10.1007/978-3-031-04819-7_36
+### Mulligan, M. (2022, December 7). Music subscriber market shares 2022. Midia Research. Retrieved June 4, 2024, from #### https://www.midiaresearch.com/blog/music-subscriber-market-shares-2022
+### Schrage, M. (2017, August 1). Great Digital Companies Build Great Recommendation Engines. Harvard Business Review. Retrieved June 4, #### 2024, from https://hbr.org/2017/08/great-digital-companies-build-great-recommendation-engines
+### Iqbal, M. (2024, May 7). Spotify Revenue and Usage Statistics. Business of Apps. Retrieved June 4, 2024, from #### https://www.businessofapps.com/data/spotify-statistics/
 
 
 
