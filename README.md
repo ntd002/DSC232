@@ -88,12 +88,14 @@ Finally, multiple Linear Regression models were used to predict stream count usi
 ### 3.6 Model 4: Final Model
 Based on sample prototyping, we chose 5 audio metrics dimensions to create the best possible clustering analysis of every track reported by Spotify in the dataset.
 The 5 chosen dimensions are:
-#### af_danceability
-#### af_energy
-#### af_loudness_normalized
-#### af_acousticness
-#### af_speechiness
+1. af_danceability
+1. af_energy
+1. af_loudness_normalized
+1. af_acousticness
+1. af_speechiness
+2. 
 This final clustering model could be useful for recommender systems, providing new tracks that are similar to a specific chosen track, or general track segmentation analysis.
+
 While we can't visualize all 5 dimensions of our cluster model simultaneously, we can visualize 2-dimensional slices to get a feel for how the model is grouping various metrics. We will visualize four 2D slices of our trained cluster model.
 To further experiment with our trained cluster model, we will pick a sample of random tracks, and then for each we will pick a random track from the same cluster as the original track. The "recommended" track may not be the same artist or genre as the original, but given the supplied 5 audio metrics, has been identified by our cluster model as being similar to the original.
 ## 4. Results
