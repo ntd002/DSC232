@@ -57,6 +57,8 @@ Because we were able to perform analyses around top tracks, artists, etc. in eac
 
 Figure 1: Spotify as a global leader in streaming music subscription markets (Mulligan, 2022).
 
+![B99B3902-F5DF-4F5B-8280-951AED11A0DB](https://github.com/ntd002/DSC232/assets/130802143/ffecfc92-dfbc-4efa-8932-ed8e5370a0eb)![image](https://github.com/ntd002/DSC232/assets/130802143/bbef4781-dba0-4dfd-a9ad-b2babc918e91)
+
 Figure 2: Spotify quarterly revenue from 2016 to 2023 (Iqbal, 2024).
 
 Figure 3: Spotify number of annual users from 2015 to 2023 (Iqbal, 2024).
