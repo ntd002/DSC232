@@ -55,15 +55,15 @@ Because we were able to perform analyses around top tracks, artists, etc. in eac
 ## 2. Figures
 ![2429DA20-05B0-4497-AE54-8739659580BC](https://github.com/ntd002/DSC232/assets/130802143/67dbc857-3e9a-43fc-a355-cb88772a6e2f)![image](https://github.com/ntd002/DSC232/assets/130802143/f79e1ac2-52ce-4e22-95d4-7a32e3b56631)
 
-Figure 1: Spotify as a global leader in streaming music subscription markets (Mulligan, 2022).
+**Figure 1:** Spotify as a global leader in streaming music subscription markets (Mulligan, 2022).
 
 ![B99B3902-F5DF-4F5B-8280-951AED11A0DB](https://github.com/ntd002/DSC232/assets/130802143/ffecfc92-dfbc-4efa-8932-ed8e5370a0eb)![image](https://github.com/ntd002/DSC232/assets/130802143/9256cbb2-067d-46e9-beac-977325ffef39)
 
-Figure 2: Spotify quarterly revenue from 2016 to 2023 (Iqbal, 2024).
+**Figure 2:** Spotify quarterly revenue from 2016 to 2023 (Iqbal, 2024).
 
 ![60500255-9BAF-4EFA-8316-F69699CECB64](https://github.com/ntd002/DSC232/assets/130802143/c356c6a8-e532-4295-92f2-f8c8f58b9476)![image](https://github.com/ntd002/DSC232/assets/130802143/441fa9d3-4744-48b9-ab68-6117e376b49e)
 
-Figure 3: Spotify number of annual users from 2015 to 2023 (Iqbal, 2024).
+**Figure 3:** Spotify number of annual users from 2015 to 2023 (Iqbal, 2024).
 
 
 
