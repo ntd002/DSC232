@@ -287,8 +287,8 @@ Overall, this project has been a valuable learning experience, demonstrating the
 - Contribution: Coding/debugging, feedback, preprocessing problem solving regarding the dataset.
 
 ### Name: Jesse Parent
-- Title: 
-- Contribution: Documentation, code review, writing/editing.
+- Title: Review and Strategy
+- Contribution: Documentation, code review, dataset exploration; writen report introduction, figures, narrative development, copyediting and formatting; assisted with project management.
 
 
 
