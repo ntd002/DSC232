@@ -108,21 +108,25 @@ To further experiment with our trained cluster model, we will pick a sample of r
 ### 4.1 Data Exploration
 
 ![B62F16F2-7B77-421C-85CF-3B223905E8B6](https://github.com/ntd002/DSC232/assets/130802143/74f69faa-b386-4672-84dd-5c2e97fb4d6f)![image](https://github.com/ntd002/DSC232/assets/130802143/29f4222a-fbfa-4509-bd00-877f2bfa1552)
-Figure 4: Datatypes of revised dataframe.
+
+**Figure 4:** Datatypes of revised dataframe.
 
 ![1A3D1E1B-DAF8-47E6-A9D9-3F238DC6A220](https://github.com/ntd002/DSC232/assets/130802143/8d30eec6-c076-4125-8cb1-0d5b1c99fd65)![image](https://github.com/ntd002/DSC232/assets/130802143/d34f3669-f94e-46f9-9b9a-14c8cc648ffb)
-Figure 5: Record count for top 20 regions in descending order.
+
+**Figure 5:** Record count for top 20 regions in descending order.
 
 ![BDAD118E-5CD7-463C-B00F-8B19CDA88942](https://github.com/ntd002/DSC232/assets/130802143/e1840d9a-c2d3-493c-9088-32b3006ea986)![image](https://github.com/ntd002/DSC232/assets/130802143/03a31016-996b-4899-952d-774d49eb607a)
-Figure 6: Top 20 artists whose tracks appear most frequently in the dataset.
+
+**Figure 6:** Top 20 artists whose tracks appear most frequently in the dataset.
 
 ![F03C3EB3-4AB7-4EFA-8042-BD8A37C1315B](https://github.com/ntd002/DSC232/assets/130802143/e8bbd267-ad71-4f41-bf7f-75a9f0bf8335)![image](https://github.com/ntd002/DSC232/assets/130802143/143b7720-5976-4dff-964b-535f0ba01909)
-Figure 7: The stream count distribution is skewed to the right, and is a unimodal distribution with one distinct peak
+
+**Figure 7:** The stream count distribution is skewed to the right, and is a unimodal distribution with one distinct peak
 
 ### 4.2 Preprocessing
 
 ![BD1C7A27-3817-49FD-BB53-0CBF2D49A000](https://github.com/ntd002/DSC232/assets/130802143/5f831ed6-b55b-4666-92dd-bb4b525cd18f)![image](https://github.com/ntd002/DSC232/assets/130802143/e7311645-ec4c-42be-9b2d-cf51ab479421)
-Figure 8: Normalization of the “af_acousticness” attribute in all records of the dataset.
+**Figure 8:** Normalization of the “af_acousticness” attribute in all records of the dataset.
 
 ### 4.3 Model 1
 Random forest classifier for prediction of profanity has an accuracy of 77.4%.\
@@ -131,7 +135,7 @@ Random forest classifier for prediction of popularity increase has an accuracy o
 ### 4.4 Model 2
 
 ![176DBC60-2A3C-444A-9E9C-D9BD3D149EB6](https://github.com/ntd002/DSC232/assets/130802143/ece9fd26-1a13-4b98-8805-75ae680dccb2)![image](https://github.com/ntd002/DSC232/assets/130802143/d74e92c3-5dee-4400-97ab-123cc090b347)
-Figure 9: 2-D Cluster analysis of energy and danceability attributes using 6 clusters.
+**Figure 9:** 2-D Cluster analysis of energy and danceability attributes using 6 clusters.
 
 
 Silhouette Score: 0.5492704788609065\
@@ -145,7 +149,7 @@ Silhouette Score: 0.45684214759467057
 
 
 ![70F2A628-6AE0-417D-8EB3-F932A63B6EDB](https://github.com/ntd002/DSC232/assets/130802143/a16a06e5-ce7f-45c3-b3cb-0b5db2447eed)![image](https://github.com/ntd002/DSC232/assets/130802143/f86950a7-5b13-48c9-b93b-3dc9dd382279)
-Figure 10: 2-D Cluster analysis of popularity and danceability attributes using 4 clusters.
+**Figure 10:** 2-D Cluster analysis of popularity and danceability attributes using 4 clusters.
 
 Silhouette Score: 0.8785532878495226\
 Silhouette Score: 0.3273972588970275\
@@ -189,19 +193,19 @@ R-squared (R2) on test data: 0.003
 ### 4.6 Model 4: Final Model
 
 ![2536DF4B-BD13-48EA-AC8E-F10D7C47250E](https://github.com/ntd002/DSC232/assets/130802143/2d2ddc02-9059-4a2b-afd9-6854b247fe36)![image](https://github.com/ntd002/DSC232/assets/130802143/83326947-98f3-4536-9fe3-2ae66ee71718)
-Figure 12: Multidimensional cluster analysis shown in a 2-D slicing of danceability and speechiness attributes.
+**Figure 12:** Multidimensional cluster analysis shown in a 2-D slicing of danceability and speechiness attributes.
 
 ![877AAFB7-76C5-48C4-ABFA-204DA82719C6](https://github.com/ntd002/DSC232/assets/130802143/2b8ba691-5d9b-45e5-84eb-c375fcca3f7a)![image](https://github.com/ntd002/DSC232/assets/130802143/ef809f63-121a-44de-8ddf-788537bd7e31)
-Figure 13: Multidimensional cluster analysis shown in a 2-D slicing of tempo and liveliness attributes.
+**Figure 13:** Multidimensional cluster analysis shown in a 2-D slicing of tempo and liveliness attributes.
 
 ![42FC962A-8BAA-49F4-A4D7-5583B7035669](https://github.com/ntd002/DSC232/assets/130802143/f3532cf3-9b89-4b26-9a95-5d2e31ebccea)![image](https://github.com/ntd002/DSC232/assets/130802143/698a0ed3-0c01-4275-aded-ea01521fa317)
-Figure 14: Multidimensional cluster analysis shown in a 2-D slicing of valence and danceability attributes.
+**Figure 14:** Multidimensional cluster analysis shown in a 2-D slicing of valence and danceability attributes.
 
 ![A8188C01-1000-46F9-A661-9CE740EB6578](https://github.com/ntd002/DSC232/assets/130802143/00c717f8-8038-48dd-8826-998c6866fb30)![image](https://github.com/ntd002/DSC232/assets/130802143/6b7b979f-0596-4a6b-b172-58ed1cc5fbc5)
-Figure 15: Multidimensional cluster analysis shown in a 2-D slicing of tempo and valence attributes.
+**Figure 15:** Multidimensional cluster analysis shown in a 2-D slicing of tempo and valence attributes.
 
 ![9E7CC065-A14A-423E-8E8B-A03A1BB29067](https://github.com/ntd002/DSC232/assets/130802143/467f941e-f87b-4581-b2da-8f38d5c1f8ed)![image](https://github.com/ntd002/DSC232/assets/130802143/eae8f28f-9e58-4e9d-9a9b-a8ea0b40750a)
-Figure 16: Determining a region-specific “recommended” track using the trained multidimensional cluster model. First iteration is shown.
+**Figure 16:** Determining a region-specific “recommended” track using the trained multidimensional cluster model. First iteration is shown.
 
 ## 5. Discussion
 
