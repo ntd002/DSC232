@@ -86,7 +86,8 @@ The next category of models ran were K-Means Clusters on samples of the full dat
 ### 3.5 Model 3
 Finally, multiple Linear Regression models were used to predict stream count using rank and popularity, predict rank using popularity and stream count, and predicting popularity using several other features.
 ### 3.6 Model 4: Final Model
-Based on sample prototyping, we chose 5 audio metrics dimensions to create the best possible clustering analysis of every track reported by Spotify in the dataset.
+Based on sample prototyping, we chose 5 audio metrics dimensions to create the best possible clustering analysis of every track reported by Spotify in the dataset. We chose these audio metrics for the cluster analysis as the silhouette score performed the best in comparison to other groups of columns. 
+
 The 5 chosen dimensions are:
 1. af_danceability
 1. af_energy
@@ -214,7 +215,7 @@ Our RMSE error dropped further, however our R2 score dropped as well. It appears
 
 ### 5.4 Model 4: Final Model
 
-
+While the multidimensional cluster model is difficult to visualize in 2 dimensions, the low silhoutte scores prove the model accuracy is not ideal. More work can be done in the future to refine the combination and number of attributes/parameters we would like to use in our model to optimize the clustering. However, it is clear that the multidimensional clustering approach satisfies our project goal of creating a track recommendation systems for users based on different audio metrics, as shown in Figure 16.
 
 
 
@@ -237,19 +238,19 @@ Our RMSE error dropped further, however our R2 score dropped as well. It appears
 
 ### Name: Chris Scholz
 - Title: 
-- Contribution: Porting and centralizing locally-developed prototype code into single notebook in SDSC, sourcing and managing dataset within SDSC
+- Contribution: Porting and centralizing locally-developed prototype code into single notebook in SDSC, sourcing and managing dataset within SDSC.
 
 ### Name: Kian Mohseni
 - Title: Multi
-- Contribution: Chose the dataset, wrote and edited Abstract, helped create and format Github repositories and branches, drafted README.md files for Data Exploration & Preprocessing branches, code review & model suggestions, report writing.
+- Contribution: Chose the dataset, wrote and edited Abstract, helped create and format Github repositories and branches, drafted README.md files for Data Exploration & Preprocessing branches, code review & model suggestions, writing final report.
 
 ### Name: Nathaniel Do
 - Title: Debugger
-- Contribution: Coding/debugging, feedback, preprocessing problem solving regarding the dataset
+- Contribution: Coding/debugging, feedback, preprocessing problem solving regarding the dataset.
 
 ### Name: Jesse Parent
 - Title: 
-- Contribution: Documentation, code review, writing/editing
+- Contribution: Documentation, code review, writing/editing.
 
 
 
