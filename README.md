@@ -271,15 +271,15 @@ Overall, this project has been a valuable learning experience, demonstrating the
 
 ## 7. Statement of Collaboration
 **Alex Hayslip**
-- Title: 
+- Title: Data Analyst/Data Visualization
 - Contribution: Wrote code for data exploration, preprocessing and modeling in a local environment. 
 
 **Chris Scholz**
-- Title: 
+- Title: Data Analyst/Data Visualization
 - Contribution: Porting and centralizing locally-developed prototype code into single notebook in SDSC, sourcing and managing dataset within SDSC.
 
 **Kian Mohseni**
-- Title: Multi
+- Title: Multi-discipline
 - Contribution: Chose the dataset, wrote and edited Abstract, helped create and format Github repositories and branches, drafted README.md files for Data Exploration & Preprocessing branches, code review & model suggestions, writing final report.
 
 **Nathaniel Do**
