@@ -126,6 +126,7 @@ To further experiment with our trained cluster model, we will pick a sample of r
 ### 4.2 Preprocessing
 
 ![BD1C7A27-3817-49FD-BB53-0CBF2D49A000](https://github.com/ntd002/DSC232/assets/130802143/5f831ed6-b55b-4666-92dd-bb4b525cd18f)![image](https://github.com/ntd002/DSC232/assets/130802143/e7311645-ec4c-42be-9b2d-cf51ab479421)
+
 **Figure 8:** Normalization of the “af_acousticness” attribute in all records of the dataset.
 
 ### 4.3 Model 1
@@ -135,6 +136,7 @@ Random forest classifier for prediction of popularity increase has an accuracy o
 ### 4.4 Model 2
 
 ![176DBC60-2A3C-444A-9E9C-D9BD3D149EB6](https://github.com/ntd002/DSC232/assets/130802143/ece9fd26-1a13-4b98-8805-75ae680dccb2)![image](https://github.com/ntd002/DSC232/assets/130802143/d74e92c3-5dee-4400-97ab-123cc090b347)
+
 **Figure 9:** 2-D Cluster analysis of energy and danceability attributes using 6 clusters.
 
 
@@ -149,6 +151,7 @@ Silhouette Score: 0.45684214759467057
 
 
 ![70F2A628-6AE0-417D-8EB3-F932A63B6EDB](https://github.com/ntd002/DSC232/assets/130802143/a16a06e5-ce7f-45c3-b3cb-0b5db2447eed)![image](https://github.com/ntd002/DSC232/assets/130802143/f86950a7-5b13-48c9-b93b-3dc9dd382279)
+
 **Figure 10:** 2-D Cluster analysis of popularity and danceability attributes using 4 clusters.
 
 Silhouette Score: 0.8785532878495226\
@@ -162,7 +165,8 @@ Silhouette Score: -0.20195852169121722
 
 
 ![C2B82C8F-F72C-4057-B41D-B99AB87096AB](https://github.com/ntd002/DSC232/assets/130802143/be0a6e17-6112-4d35-8b09-3e1956465afe)![image](https://github.com/ntd002/DSC232/assets/130802143/2b67e02c-cbf5-4d6a-b1d0-318d78a0309a)
-Figure 11: 2-D cluster analysis of popularity and valence attributes using 4 clusters.
+
+**Figure 11:** 2-D cluster analysis of popularity and valence attributes using 4 clusters.
 
 Silhouette Score: 0.8777958005670929\
 Silhouette Score: 0.25316260737768\
@@ -193,18 +197,23 @@ R-squared (R2) on test data: 0.003
 ### 4.6 Model 4: Final Model
 
 ![2536DF4B-BD13-48EA-AC8E-F10D7C47250E](https://github.com/ntd002/DSC232/assets/130802143/2d2ddc02-9059-4a2b-afd9-6854b247fe36)![image](https://github.com/ntd002/DSC232/assets/130802143/83326947-98f3-4536-9fe3-2ae66ee71718)
+
 **Figure 12:** Multidimensional cluster analysis shown in a 2-D slicing of danceability and speechiness attributes.
 
 ![877AAFB7-76C5-48C4-ABFA-204DA82719C6](https://github.com/ntd002/DSC232/assets/130802143/2b8ba691-5d9b-45e5-84eb-c375fcca3f7a)![image](https://github.com/ntd002/DSC232/assets/130802143/ef809f63-121a-44de-8ddf-788537bd7e31)
+
 **Figure 13:** Multidimensional cluster analysis shown in a 2-D slicing of tempo and liveliness attributes.
 
 ![42FC962A-8BAA-49F4-A4D7-5583B7035669](https://github.com/ntd002/DSC232/assets/130802143/f3532cf3-9b89-4b26-9a95-5d2e31ebccea)![image](https://github.com/ntd002/DSC232/assets/130802143/698a0ed3-0c01-4275-aded-ea01521fa317)
+
 **Figure 14:** Multidimensional cluster analysis shown in a 2-D slicing of valence and danceability attributes.
 
 ![A8188C01-1000-46F9-A661-9CE740EB6578](https://github.com/ntd002/DSC232/assets/130802143/00c717f8-8038-48dd-8826-998c6866fb30)![image](https://github.com/ntd002/DSC232/assets/130802143/6b7b979f-0596-4a6b-b172-58ed1cc5fbc5)
+
 **Figure 15:** Multidimensional cluster analysis shown in a 2-D slicing of tempo and valence attributes.
 
 ![9E7CC065-A14A-423E-8E8B-A03A1BB29067](https://github.com/ntd002/DSC232/assets/130802143/467f941e-f87b-4581-b2da-8f38d5c1f8ed)![image](https://github.com/ntd002/DSC232/assets/130802143/eae8f28f-9e58-4e9d-9a9b-a8ea0b40750a)
+
 **Figure 16:** Determining a region-specific “recommended” track using the trained multidimensional cluster model. First iteration is shown.
 
 ## 5. Discussion
