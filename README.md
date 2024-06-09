@@ -270,23 +270,23 @@ Overall, this project has been a valuable learning experience, demonstrating the
 
 
 ## 7. Statement of Collaboration
-### Name: Alex Hayslip
+**Alex Hayslip**
 - Title: 
 - Contribution: Wrote code for data exploration, preprocessing and modeling in a local environment. 
 
-### Name: Chris Scholz
+**Chris Scholz**
 - Title: 
 - Contribution: Porting and centralizing locally-developed prototype code into single notebook in SDSC, sourcing and managing dataset within SDSC.
 
-### Name: Kian Mohseni
+**Kian Mohseni**
 - Title: Multi
 - Contribution: Chose the dataset, wrote and edited Abstract, helped create and format Github repositories and branches, drafted README.md files for Data Exploration & Preprocessing branches, code review & model suggestions, writing final report.
 
-### Name: Nathaniel Do
+**Nathaniel Do**
 - Title: Debugger
 - Contribution: Coding/debugging, feedback, preprocessing problem solving regarding the dataset.
 
-### Name: Jesse Parent
+**Jesse Parent**
 - Title: Review and Strategy
 - Contribution: Documentation, code review, dataset exploration; writen report introduction, figures, narrative development, copyediting and formatting; assisted with project management.
 
