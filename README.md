@@ -202,7 +202,12 @@ Figure 16: Determining a region-specific “recommended” track using the train
 ## 5. Discussion
 
 ### 5.1 Data Exploration
+In our initial data exploration, we used the pyspark.sql.DataFrames.printSchema() syntax to return each individual column as an output as well as its corresponding data type. Additionally, we used the  pyspark.sql.DataFrame.groupBy syntax to return the top 20 regions and top 20 artists that were referenced in Spotify music popularity lists. By returning the schema of the dataframe, we were able to better understand the context of each column in the dataset. Additionally, it was interesting to see trends in the dataset such as which regions and artists are most likely to be referenced in the Spotify music popularity lists. This lead us to realizing we might be better suited for interpretation at a higher level (regional, music type) rather than individual preferences. 
+
 ### 5.2 Preprocessing
+The columns of “contains_cussing”, “popularity_increased”, “new_entry”, “same_position” and “popularity_decreased” were created to be implemented in Random Forest Classification models. Specifically, we were interested in seeing how accurately a Random Forest Classification model could predict whether a song contains profanity as well as how accurately the model could predict a song’s popularity.  
+In retrospect, it would have been interesting to incorporate the release_date column into our analysis. This would have been a good opportunity to incorporate some time series analysis methods and extrapolate any relationships between Spotify audio metrics variables over the course of months, days or years. 
+
 ### 5.3 Models 1, 2, & 3
 Our Random Forest Classification and K-Means Clustering models fit in the ideal range for model complexity, as they are neither underfit or overfit. There is a healthy difference between the test error and training error, and the test error is close to minimized. However, all of our Linear Regression models performed poorly and are severely underfit as demonstrated by the very low correlation values and high RMS error.
 
@@ -219,7 +224,7 @@ Our RMSE error dropped further, however our R2 score dropped as well. It appears
 
 ### 5.4 Model 4: Final Model
 
-While the multidimensional cluster model is difficult to visualize in 2 dimensions, the low silhoutte scores prove the model accuracy is not ideal. More work can be done in the future to refine the combination and number of attributes/parameters we would like to use in our model to optimize the clustering. However, it is clear that the multidimensional clustering approach satisfies our project goal of creating a track recommendation systems for users based on different audio metrics, as shown in Figure 16.
+While the multidimensional cluster model is difficult to visualize in 2 dimensions, the low silhouette scores prove the model accuracy is not ideal. More work can be done in the future to refine the combination and number of attributes/parameters we would like to use in our model to optimize the clustering. However, it is clear that the multidimensional clustering approach satisfies our project goal of creating a track recommendation systems for users based on different audio metrics, as shown in Figure 16.
 
 
 
